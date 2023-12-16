@@ -7,5 +7,4 @@ RUN yarn cache clean --all
 COPY . .
 ENV PORT 80
 EXPOSE 80
-RUN echo "--> DEPLOY CONCLUIDO!!! <--"
 CMD ["node", "index.js"]

@@ -53,4 +53,4 @@ Isso retornará um JSON com a URL do vídeo disponível para download.
 
 Lembre-se de substituir "https://example.com/download/1234567890/video.mp4" pela URL real do vídeo.
 
-Sinta-se à vontade para adaptar e expandir este projeto de acordo com suas necessidades.
+Baseado no projeto [instagram-video-downloader](https://github.com/riad-azz/instagram-video-downloader)
