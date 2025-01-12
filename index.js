@@ -13,6 +13,8 @@ app.get('/', async (request, reply) => {
 app.get('/download/', async (request, reply) => {
     const { url } = request.query;
 
+    console.log("--> GET /download", url, new Date().toLocaleString())
+
     if (!url) reply.send({ error: 'forneça uma URL do instagram' })
     let resultado = await fetchPostJson(url)
     reply.send({ ...resultado });
